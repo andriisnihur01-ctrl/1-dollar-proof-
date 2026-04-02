@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1 Dollar Proof • Small Makes Big</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0a0a0a;
+      color: #eeeeee;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      line-height: 1.6;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), url('https://i.imgur.com/твоя_ссылка_на_картинку.jpg') center/cover no-repeat;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 3.5rem;
+      margin: 0 0 20px 0;
+      color: #ffd700;
+    }
+    p {
+      font-size: 1.35rem;
+      max-width: 720px;
+      margin: 15px auto;
+    }
+    .address-box {
+      background: #1f1f1f;
+      padding: 25px;
+      border-radius: 16px;
+      margin: 35px auto;
+      max-width: 640px;
+      font-size: 1.15rem;
+      word-break: break-all;
+      border: 1px solid #333;
+    }
+    button {
+      background: #ffd700;
+      color: #000;
+      border: none;
+      padding: 18px 50px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      border-radius: 50px;
+      cursor: pointer;
+      margin: 20px 10px;
+    }
+    button:hover {
+      background: #ffed4e;
+    }
+    .footer-text {
+      margin-top: 60px;
+      font-size: 1rem;
+      opacity: 0.75;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>1 Dollar Proof</h1>
+    <p>One dollar from a millionaire.<br>Proof that from small you can make something big.</p>
+    
+    <p>You are under no obligation.<br>
+    You can scroll past and do nothing.<br>
+    But if you send exactly <strong>1 USDC</strong>, you become part of a simple experiment<br>
+    that shows the world: even the smallest amount in many hands creates something meaningful.</p>
+    
+    <div class="address-box">
+      Send <strong>exactly 1 USDC</strong> to this address:<br><br>
+      <strong>EtRMBAKz6bmzHDK9ZkjAofyky63DQK8DVSCjdugm3DfX</strong>
+    </div>
+    
+    <button onclick="copyAddress()">Copy Address</button>
+    
+    <div class="footer-text">
+      No registration • No personal data • No obligations<br>
+      The choice is always yours.
+    </div>
+  </div>
+
+  <script>
+    function copyAddress() {
+      navigator.clipboard.writeText("EtRMBAKz6bmzHDK9ZkjAofyky63DQK8DVSCjdugm3DfX");
+      alert("✅ Address copied!\nSend exactly 1 USDC to this address.");
+    }
+  </script>
+</body>
+</html>
