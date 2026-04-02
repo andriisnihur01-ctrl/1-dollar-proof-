@@ -15,7 +15,7 @@
       line-height: 1.6;
     }
     .hero {
-      background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), url('https://i.imgur.com/твоя_ссылка_на_картинку.jpg') center/cover no-repeat;
+      background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), url('https://i.imgur.com/SIN90xG.jpg') center/cover no-repeat;
       min-height: 100vh;
       display: flex;
       align-items: center;
